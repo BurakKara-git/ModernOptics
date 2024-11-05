@@ -11,7 +11,7 @@ n_list = [1.35, 2.3]  # Index of Refractions to be Used
 repeat = 8  # Total Number of Layers
 initial_lambda = 600
 L = initial_lambda / 4
-lambdas = np.arange(initial_lambda * 0.8, initial_lambda * 1.2, 0.01, dtype=float)
+lambdas = np.arange(200, 2000, 0.1, dtype=float)
 
 # Create Plot Folder
 path = "./plots_Spectral_Reflectance_Calculator"
