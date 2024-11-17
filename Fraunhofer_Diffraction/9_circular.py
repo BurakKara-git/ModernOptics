@@ -39,7 +39,7 @@ def main():
 
     # Plot
     plt.figure(1, (16, 9))
-    title = "Fraunhofer Diffraction Pattern for Circular Aperture of Diameter {}mm\n".format(
+    title = "Fraunhofer Diffraction Pattern for 9 Circular Apertures in Array of Diameters {}mm\n".format(
         D * 1e3
     )
     plt.contourf(X * 1e3, Y * 1e3, I, levels=100, cmap="plasma")  # Convert x, y to mm
